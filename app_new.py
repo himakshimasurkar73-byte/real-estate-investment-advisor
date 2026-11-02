@@ -25,7 +25,7 @@ st.sidebar.divider()
 st.sidebar.info("Explore property investment opportunities.")
 
 # Load dataset
-df = pd.read_csv("data/india_housing_prices_cleaned.csv")
+df = pd.read_csv("data/india_housing_prices_cleaned.zip", compression="zip")
 
 # Dashboard
 if page == "Dashboard":
